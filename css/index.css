@@ -1,0 +1,11 @@
+.md{
+    width: 400px;
+}
+.md .nav-page a{
+    color: #143A51;
+    font-weight: 700;
+
+}
+ a:hover{
+    opacity: .75;
+}
