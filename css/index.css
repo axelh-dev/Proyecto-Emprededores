@@ -1,11 +1,23 @@
-.md{
+.md {
     width: 400px;
 }
-.md .nav-page a{
+
+.md .nav-page a {
     color: #143A51;
     font-weight: 700;
 
 }
- a:hover{
+
+a:hover {
     opacity: .75;
+}
+
+
+.sec-home {
+    background-image: url(../assets/img/fondo-home.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-height: 90vh;
 }
