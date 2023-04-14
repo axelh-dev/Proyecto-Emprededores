@@ -21,3 +21,8 @@ a:hover {
     width: 100%;
     min-height: 90vh;
 }
+
+.text-description{
+    text-align: justify;
+
+}
