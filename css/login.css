@@ -170,3 +170,7 @@ label input:focus {
 .submit-btn:hover {
     opacity: 0.75;
 }
+.buton-atr{
+    background-color: white;
+    width: 100%;
+}

@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 .md {
     width: 400px;
 }
@@ -19,10 +25,65 @@ a:hover {
     background-size: cover;
     background-position: center center;
     width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
-.text-description{
-    text-align: justify;
+.sec-beneficts {
+    width: 100%;
+    min-height: 20vh;
+}
 
+.text-description {
+    text-align: justify;
+}
+
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: #282623;
+}
+
+.product-detail--title {
+    width: 100%;
+    min-width: 288px;
+    text-align: center;
+}
+
+.product-detail--title h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 500px;
+    height: 180px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #201E1C;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16s);
+    color: white;
+
+}
+
+
+
+.product--card-title {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
