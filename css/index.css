@@ -33,7 +33,7 @@ a:hover {
     min-height: 20vh;
 }
 
-.text-description {
+.text-description , .product--card-body{
     text-align: justify;
 }
 
@@ -87,3 +87,5 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+
