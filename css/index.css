@@ -37,6 +37,27 @@ a:hover {
     min-height: 100vh;
 }
 
+
+/* Pendiente de modificar */
+
+
+.sec-maps {
+    width: 100%;
+    min-height: 80vh;
+    border: 1px red solid;
+
+}
+
+.footer-contac {
+    background-color: #282623;
+    /*  background-image: url(../assets/img/fondo2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; */
+    width: 100%;
+    min-height: 40vh;
+}
+
 .cards-container {
     width: 100%;
     height: auto;
@@ -111,7 +132,7 @@ a:hover {
     padding-top: 10px;
     padding-bottom: 20px;
     border-radius: 10px;
-    border-bottom: 4px solid #084C61;
+    border-bottom: 4px solid #143A51;
     box-shadow: 0 6px 30px rgba(207, 212, 222, 0.3);
     font-family: "Poppins", sans-serif;
 }
@@ -239,10 +260,39 @@ a:hover {
     color: #212529;
 }
 
+.redes-icons {
+    width: 100%;
+}
+
+.redes {
+    max-width: 300px;
+    min-width: 200px;
+} 
+.line-left {
+    margin-right: 1rem !important;
+
+    border-bottom: 4px solid white;
+    width: 55%;
+
+}
+
+.line-right {
+    margin-left: 1rem !important;
+
+    border-bottom: 4px solid white;
+    width: 55%;
+
+}
+
+.line-center{
+    width: 1px;
+    margin: 10px;
+    border: 1px solid white;
+}
+
 
 @media (max-width: 859px) {
     .product-detail--title2 h2 {
         color: white;
     }
 }
-
