@@ -13,29 +13,78 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 
-<body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="    height: 75px;">
-        <div class="container">
-            <a class="navbar-brand" href="#page-top"><img src="assets/img/header.svg" alt="..." /></a>
-            <button class="navbar-toggler" style="color: black;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars ms-1" style="color: black;"></i>
-            </button>
+<body>
+    <header>
+        
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <button class="navbar-toggler d-lg-none d-block " type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#main-product">Beneficios</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="#portfolio">Sobre nosotros</a></li> -->
-                    <li class="nav-item"><a class="nav-link" href="#sec-plans">Planes</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#sec-maps">Mapa</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#footer-contac">Contáctanos</a></li>
-                </ul>
+                <a class="navbar-brand" href="#"> <img class="img-header" src="./assets/img/header.svg" alt=""
+                        height="50px"></a>
+
+                <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> <img src="./assets/img/header.svg" alt=""
+                                height="50px"></h5>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                            <li class="nav-item">
+                                <a href="#main-product" class="nav-link"">Beneficios</a>
+                            </li>
+                            <li class=" nav-item">
+                                    <a href="#sec-plans" class="nav-link">Planes</a>
+                            </li>
+                            <li class=" nav-item">
+                                <a href="#sec-maps" class="nav-link"">Mapa</a>
+                            </li>
+                            <li class=" nav-item">
+                                    <a href="#footer-contac" class="nav-link"">Contacto</a>
+                            </li>
+                         
+
+                        </ul>
+
+                        <!-- position-absolute top-100 start-50 translate-middle  -->
+                        <!-- <div class=" d-flex mt-5 justify-content-center ">
+                            <a class=" btn" style="background-color: #143A51; color: wheat;"
+                                        href="./html/singop.html">Registrarse</a>
+                                    <a class="btn ms-1" style="background-color: #143A51; color: wheat;"
+                                        href="./html/login.html">Iniciar Secion</a>
+                    </div> -->
+                </div>
+
             </div>
-        </div>
-    </nav>
+            </div>
+            <div class="md d-none d-md-block">
+                <div class="nav-page d-flex justify-content-around">
+                    <a href="#main-product" class="fs-5 text-decoration-none">Beneficios</a>
+                    <a href="#footer-contac" class="fs-5 text-decoration-none">Sobre nosotros</a>
+                    <a href="#sec-plans" class="fs-5 text-decoration-none">Planes</a>
+                    <a href="#sec-maps" class="fs-5 text-decoration-none">Mapa</a>
+                    <a href="#footer-contac" class="fs-5 text-decoration-none">Contacto</a>
+                </div>
+            </div>
+
+            <!-- <div class="d-none d-lg-block">
+                <a class="btn" style="background-color: #143A51; color: wheat;" href="./html/login.html">Registrarse</a>
+                <a class="btn" style="background-color: #143A51; color: wheat;" href="./html/singop.html">Iniciar
+                    Secion</a>
+            </div> -->
+            </div>
+        </nav>
+    </header>
     <main>
-        <section class="sec-home d-flex align-items-center justify-content-center">
+        <section class="sec-home d-flex align-items-center justify-content-center mt-5">
             <div class="row g-0">
                 <div
                     class="about-mi-text col-lg-7 mt-5 p-3 col-md-12 col-12 d-flex align-items-center justify-content-center">
@@ -137,8 +186,8 @@
                         </ul>
                     </div>
                     <div class="button-get-plan">
-                        <a href="./html/RegPagos.html" class="mt-4 ">
-                            <span class="fs-6">Adquirir</span>
+                        <a href="#" class="mt-4 ">
+                            <span class="fs-6">Comprar</span>
                         </a>
                     </div>
                 </div>
@@ -170,11 +219,13 @@
                         </ul>
                     </div>
                     <div class="button-get-plan">
-                        <a href="./html/RegPagos.html" class="mt-4">
-                            <span class="fs-6">Adquirir</span>
+                        <a href="#" class="mt-4">
+                            <span class="fs-6">Comprar</span>
                         </a>
                     </div>
                 </div>
+
+
 
                 <div class="plan-card m-3">
                     <h2>BiciTech<span>Plan, Mas de 3 personas</span></h2>
@@ -207,8 +258,8 @@
                         </ul>
                     </div>
                     <div class="button-get-plan">
-                        <a href="./html/RegPagos.html" class="">
-                            <span class="fs-6">Adquirir</span>
+                        <a href="#" class="">
+                            <span class="fs-6">Comprar</span>
                         </a>
                     </div>
                 </div>
@@ -216,7 +267,11 @@
             </div>
         </section>
 
-        <section class=" sec-maps d-flex flex-column align-items-center justify-content-center" id="sec-maps">
+
+
+        <!-- Pendiente de terminar -->
+
+        <section class="sec-maps d-flex flex-column align-items-center justify-content-center" id="sec-maps">
         </section>
 
     </main>
