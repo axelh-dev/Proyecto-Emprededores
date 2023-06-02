@@ -40,17 +40,15 @@
 
 }
 
-@media (max-width: 768px) {
-    .section-avanza {
-        min-height: 55vh;
-    }
+/* @media (max-width: 768px) {
+
 
     .footer-contac-pagos {
         height: 10vh;
     }
 
 
-}
+} */
 
 @media (max-width: 425px) {
     .ml7 .letter {
@@ -63,9 +61,7 @@
         height: 10vh;
     }
 
-    /* .img-footer {
-        display: none;
-    } */
+
 
 }
 
